@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("veges.jpg");
+            background-repeat: no-repeat;
+        }
+        .container{
+            border: 5px #ffb1f2 solid;
+            margin: 50px 273px;
+            width: 800px;
+            font-family: 'Satisfy', cursive;
+        }
+        .items{
+            background-color: #c4ffff;
+            border: 3px solid #5c9bf3;
+            padding: 12px 18px;
+            margin: 25px 25px;
+        }
+        #fruits{
+            float: left;
+            width: 43%;
+        }
+        #vegetables{
+            float: right;
+            width: 42%;
+        }
+        #dryfruits{
+            /* float: left; */
+            clear: left;
+            width: 94%;
+        }
+        #spices{
+            opacity: 80%;
+        }
+        p,h2{
+            text-align: right;
+            text-align: left;
+            text-align: justify;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color:  azure;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="items">
+            <h2>Fruits</h2>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est minus molestiae fugiat assumenda expedita dolor consequatur quas nam corrupti amet fuga hic ut quaerat architecto rerum facere quae, reiciendis aliquam, dicta suscipit. Voluptates, omnis quibusdam ab neque aspernatur ex!</p>
+        </div>
+        <div id="vegetables" class="items">
+            <h2>Vegetables</h2>
+            <p id="vegetablespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est minus molestiae fugiat assumenda expedita dolor consequatur quas nam corrupti amet fuga hic ut quaerat architecto rerum facere quae, reiciendis aliquam, dicta suscipit. Voluptates, omnis quibusdam ab neque aspernatur ex!</p>
+        </div>
+        <div id="dryfruits" class="items">
+            <h2>Dry Fruits</h2>
+            <p id="dryfruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est minus molestiae fugiat assumenda expedita dolor consequatur quas nam corrupti amet fuga hic ut quaerat architecto rerum facere quae, reiciendis aliquam, dicta suscipit. Voluptates, omnis quibusdam ab neque aspernatur ex!</p>
+        </div>
+        <div id="spices" class="items">
+            <h2>Spices</h2>
+            <p id="spicespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias est minus molestiae fugiat assumenda expedita dolor consequatur quas nam corrupti amet fuga hic ut quaerat architecto rerum facere quae, reiciendis aliquam, dicta suscipit. Voluptates, omnis quibusdam ab neque aspernatur ex!</p>
+        </div>
+    </div>
+    <footer><span>Photo by <a href="https://unsplash.com/@danielcgold?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dan Gold</a> on <a href="https://unsplash.com/s/photos/vegetables?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></footer>
+</body>
+</html>
