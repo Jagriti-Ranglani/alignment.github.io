@@ -1,1 +1,1 @@
-This is a practical on alinment
+This is a practical on alignment
